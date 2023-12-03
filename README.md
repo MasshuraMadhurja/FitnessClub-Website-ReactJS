@@ -4,11 +4,14 @@ Welcome to the FitnessClub Website, a ReactJS-powered platform for fitness enthu
 ## Live Preview
 Check out the [live demo](https://fitness-website-reactjs.netlify.app/) to see the website.
 
-![screenshot](https://github.com/MasshuraMadhurja/FitnessClub-Website-ReactJS/assets/83574137/3fced8ce-aaf9-4f6a-98a6-7b6377e3d54a)
+![screenshot](https://github.com/MasshuraMadhurja/FitnessClub-Website-ReactJS/blob/main/screenshot.JPG)
 Mobile View
 
 
-https://github.com/MasshuraMadhurja/FitnessClub-Website-ReactJS/assets/83574137/ba2344c6-c146-429d-96a7-e815b05d9543
+
+
+
+https://github.com/MasshuraMadhurja/FitnessClub-Website-ReactJS/assets/83574137/b30acba9-5412-4a72-801e-267a55b3cb8d
 
 
 
