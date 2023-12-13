@@ -2,7 +2,7 @@
 Welcome to the FitnessClub Website, a ReactJS-powered platform for fitness enthusiasts. This website provides a user-friendly interface to explore fitness programs, track workouts, and engage with the fitness community.
 
 ## Live Preview
-Check out the [live demo](https://fitness-website-reactjs.netlify.app/) to see the website.
+Check out the [live demo](https://fitnessclub-website-reactjs.netlify.app/) to see the website.
 
 ![screenshot](https://github.com/MasshuraMadhurja/FitnessClub-Website-ReactJS/blob/main/screenshot.JPG)
 Mobile View
