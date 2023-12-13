@@ -3,9 +3,10 @@ import "./Join.css";
 import emailjs from "@emailjs/browser";
 
 const Join = () => {
-    const form = useRef()
+    const form = useRef(null);
 
     const sendEmail = (e) => {
+        
         e.preventDefault();
 
         emailjs.sendForm('service_e65go5p', 'template_v2jlciu', form.current, 'zoLrrBv8F8kwL-9-S')
@@ -15,6 +16,10 @@ const Join = () => {
                 console.log(error.text);
             });
             alert('Congratulations! You are now a member. Check mail for more!');
+            form.current.reset();
+            document.getElementById('home').scrollIntoView({ behavior: 'smooth' });
+           
+
     };
 
     return (
