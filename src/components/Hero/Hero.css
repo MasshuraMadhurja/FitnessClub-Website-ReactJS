@@ -17,7 +17,9 @@
     position: relative;
     background-color: var(--orange);
 }
-
+.right-h .btn:hover {
+    transform: scale(1.12);
+}
 .the-best-add {
     margin-top: 4rem;
     background-color: #363d42;

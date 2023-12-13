@@ -8,12 +8,13 @@ const Join = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_pxktlvh', 'template_bmohr5m', form.current, 'zoLrrBv8F8kwL-9-S')
+        emailjs.sendForm('service_e65go5p', 'template_v2jlciu', form.current, 'zoLrrBv8F8kwL-9-S')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
                 console.log(error.text);
             });
+            alert('Congratulations! You are now a member. Check mail for more!');
     };
 
     return (
@@ -29,7 +30,7 @@ const Join = () => {
                     <span className="stroke-text">WITH US?</span>
                 </div>
             </div>
-            <div className="right-j">
+            <div className="right-j" id="join">
 
                 <form ref={form} className="email-container"  onSubmit={sendEmail}>
                     <input type="email" name="user_email" placeholder="Enter your Email address." />
